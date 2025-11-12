@@ -288,20 +288,7 @@ pais_mayor_poblacion = max(paises, key=obtener_poblacion)
 pais_menor_poblacion = min(paises, key=obtener_poblacion)
 ```
 
-#### 7.2.2 Promedio (Media Aritmética)
-
-```python
-total = sum(p["poblacion"] for p in paises)
-promedio = total / len(paises)
-```
-
-#### 7.2.3 Suma Total
-
-```python
-poblacion_total = sum(p["poblacion"] for p in paises)
-```
-
-#### 7.2.4 Conteo por Categoría
+#### 7.2.2 Conteo por Categoría
 
 ```python
 paises_por_continente = {}
@@ -388,18 +375,7 @@ with open("paises.csv", "w", newline="", encoding="utf-8") as archivo:
 
 ## 9. MANEJO DE ERRORES Y VALIDACIONES
 
-### 9.1 Try-Except
-
-```python
-try:
-    # Código que puede fallar
-    numero = int(input("Ingrese número: "))
-except ValueError:
-    # Código si ocurre el error
-    print("Debe ingresar un número válido")
-```
-
-### 9.2 Validaciones Implementadas
+### 9.1Validaciones Implementadas
 
 1. **Campos no vacíos**: `if texto.strip() == ""`
 2. **Números positivos**: `if numero <= 0`
@@ -407,7 +383,7 @@ except ValueError:
 4. **Rangos coherentes**: `if maximo >= minimo`
 5. **Opciones válidas**: Validar entrada del menú
 
-### 9.3 Importancia
+### 9.2 Importancia
 
 - Evita crashes del programa
 - Mejora la experiencia del usuario
