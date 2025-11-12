@@ -342,10 +342,7 @@ paises = [
 
 ## Referencias Bibliográficas
 
-1. Van Rossum, G. & Drake, F. L. (2023). _Python Tutorial_. Python Software Foundation.
-2. McKinney, W. (2022). _Python for Data Analysis_. O'Reilly Media.
-3. Lutz, M. (2021). _Learning Python_. O'Reilly Media.
-4. Documentación oficial de Python: https://docs.python.org/3/
+- Documentación oficial de Python: https://docs.python.org/3/
 
 ## Características Destacadas
 
